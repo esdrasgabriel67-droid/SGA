@@ -1,6 +1,8 @@
+"use client";
+
 import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { useRef } from "react";
+import React, { useRef } from "react";
 
 /* ---------------- WordsPullUp ---------------- */
 interface WordsPullUpProps {
@@ -164,4 +166,3 @@ const PrismaHero = () => {
 };
 
 export { PrismaHero };
-
